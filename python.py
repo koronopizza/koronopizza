@@ -23,3 +23,35 @@ print(y)
 print(z)
 #ex showed my work
 
+x = 5
+y = "tree"
+z = 5.5
+print(type(x)) 
+print(type(y)) 
+print(type(z)) 
+x = ("ant", "bug", "worm")
+#tuple
+
+#display x:
+print(x)
+
+#display the data type of x:
+print(type(x)) 
+x = {"name" : "jojo", "age" : 32}
+#dict
+#display x:
+print(x)
+
+#display the data type of x:
+print(type(x)) 
+x = True
+
+#display x:
+print(x)
+
+#display the data type of x:
+print(type(x)) 
+#these are examples of python data types
+
+
+
