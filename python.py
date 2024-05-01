@@ -78,3 +78,27 @@ print(a)
 import random
 
 print(random.randrange(1, 1000))
+
+#this Gets the character at position 1
+a = "Hello, World!"
+print(a[1])
+
+#strings are arrays
+#Since strings are arrays, we can loop through the characters in a string
+for x in "william":
+  print(x)
+  
+#W
+#i
+#l
+#l
+#i
+#a
+#m
+
+txt = "The best things in life are hotdogs and bacon!"
+if "free" in txt:
+  print("Yes, 'free' is present.")
+else:
+  print("not here")  
+  
