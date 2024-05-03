@@ -101,4 +101,25 @@ if "free" in txt:
   print("Yes, 'free' is present.")
 else:
   print("not here")  
-  
+
+#To concatenate, or combine, two strings you can use the + operator.  
+z = "Hello"
+y = "World"
+x = z + y
+print(x)
+
+#When you compare two values, the expression is evaluated and Python returns the Boolean answer
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
+
+#values, such as (), [], {}, "", the number 0 evaluates to False
+bool(False)
+bool(None)
+bool(0)
+bool("")
+bool(())
+bool([])
+bool({})
+
+#
