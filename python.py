@@ -129,3 +129,16 @@ class myclass():
 
 myobj = myclass()
 print(bool(myobj))
+
+#Parentheses has the highest precedence, meaning that expressions inside parentheses must be evaluated first
+print((6 + 3) - (6 + 3))
+
+print((4/4)+(17+22))
+
+#To determine how many items a list has, use the len() function
+thislist = ["apple", "banana", "cherry"]
+print(len(thislist))
+
+thislist = ["cat","dog","bird"]
+print(len(thislist))
+
