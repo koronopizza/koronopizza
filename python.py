@@ -142,3 +142,28 @@ print(len(thislist))
 thislist = ["cat","dog","bird"]
 print(len(thislist))
 
+list1 = ["apple", "banana", "cherry"]
+list2 = [1, 5, 7, 9, 3]
+list3 = [True, False, False]
+
+list4 = ["tree","rock","sun"]
+list5 = [3,43,2,565,6,345,55,67,3]
+list6 = ["t,f,t,f,,t,f,t,f,t"]
+
+#List items are indexed and you can access them by referring to the index number
+thislist = ["apple", "banana", "cherry"]
+print(thislist[2])
+
+thislist = ["dragon","bear","flying"]
+print(thislist[0])
+
+#The insert() method inserts an item at the specified index
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(2, "watermelon")
+print(thislist)
+
+blackblood = ["anime","watching","withyou"]
+blackblood.insert(0, "friend")
+print(blackblood)
+
+# 
