@@ -166,4 +166,13 @@ blackblood = ["anime","watching","withyou"]
 blackblood.insert(0, "friend")
 print(blackblood)
 
-# 
+# You can loop through the list items by using a for loop:
+thislist = ["apple", "banana", "cherry"]
+for x in thislist:
+  print(x)
+  
+thislist = ["will", "jojo", "john"]
+for x in thislist:
+  print(x)  
+ 
+#  
