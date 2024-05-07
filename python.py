@@ -175,4 +175,17 @@ thislist = ["will", "jojo", "john"]
 for x in thislist:
   print(x)  
  
-#  
+#Print all items, using a while loop to go through all the index numbers
+thislist = ["apple", "banana", "cherry"]
+i = 0
+while i < len(thislist):
+  print(thislist[i])
+  i = i + 1
+
+thislist = ["0", "1", "2"]
+i = 0
+while i < len(thislist):
+  print(thislist[i])
+  i = i + 1
+
+#
