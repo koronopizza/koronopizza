@@ -188,4 +188,16 @@ while i < len(thislist):
   print(thislist[i])
   i = i + 1
 
-#
+#With the break statement we can stop the loop before it has looped through all the items:
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
+  
+pokemon = ["dragonite","mewtwo","pikachu"]
+for x in pokemon:
+  print(x)
+  if x == "dragonite":
+    break
+#  
