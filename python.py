@@ -200,4 +200,35 @@ for x in pokemon:
   print(x)
   if x == "dragonite":
     break
-#  
+#  You can also loop through the list items by referring to their index number.
+#Use the range() and len() functions to create a suitable iterable.
+thislist = ["apple", "banana", "cherry"]
+for i in range(len(thislist)):
+  print(thislist[i])
+  
+  thislist = ["gameboy", "gameboycolor", "gameboyA"]
+for i in range(len(thislist)):
+  print(thislist[i])
+  
+#  You can loop through the list items by using a while loop.
+thislist = ["apple", "banana", "cherry"]
+i = 0
+while i < len(thislist):
+  print(thislist[i])
+  i = i + 1
+  
+  thislist = ["car", "bug", "duck"]
+i = 0
+while i < len(thislist):
+  print(thislist[i])
+  i = i + 1
+
+#List Comprehension offers the shortest syntax for looping through lists
+#A short hand for loop that will print all items in a list
+thislist = ["apple", "banana", "cherry"]
+[print(x) for x in thislist]
+
+thislist = ["g", "h", "b","y", "d", "s"]
+[print(x) for x in thislist]
+
+#
