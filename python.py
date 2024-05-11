@@ -228,7 +228,7 @@ while i < len(thislist):
 thislist = ["apple", "banana", "cherry"]
 [print(x) for x in thislist]
 
-thislist = ["g", "h", "b","y", "d", "s"]
+thislist = ["g","h","b","y","d","s"]
 [print(x) for x in thislist]
 
 #
