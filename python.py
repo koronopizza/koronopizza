@@ -231,4 +231,14 @@ thislist = ["apple", "banana", "cherry"]
 thislist = ["g","h","b","y","d","s"]
 [print(x) for x in thislist]
 
+#The return value is a new list, leaving the old list unchanged.
+newlist = [x for x in fruits if x != "apple"]
+
+newlist = [x for x in tv if x != "anime"]
+
+#The iterable can be any iterable object, like a list, tuple, set etc.
+newlist = [x for x in range(10)]
+
+newlist = [x for x in range(2134)]
+
 #
