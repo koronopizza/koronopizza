@@ -259,5 +259,12 @@ thislist = [9034, 5343, 3334, 4382, 3423]
 thislist.sort()
 print(thislist)
 
+#the keyword argument "reverse = True" will change descending order
+thislist = [11, 55, 66, 88, 22]
+thislist.sort(reverse = True)
+print(thislist)
+
+#this will roll turn out like this: 88,66,55,22,11
+
 #
 
