@@ -241,7 +241,7 @@ newlist = [x for x in range(10)]
 
 newlist = [x for x in range(2134)]
 
-#List objects have a sort() method that will sort the list alphanumerically, ascending, by default
+#this List objects have a sort() method that will sort the list alphanumerically, ascending, by default
 thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
 thislist.sort()
 print(thislist)
@@ -250,4 +250,14 @@ thislist = ["blood", "code", "punk", "metal", "king"]
 thislist.sort()
 print(thislist)
 
+#this will Sort the list numerically
+thislist = [100, 50, 65, 82, 23]
+thislist.sort()
+print(thislist)
+
+thislist = [9034, 5343, 3334, 4382, 3423]
+thislist.sort()
+print(thislist)
+
+#
 
