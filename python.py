@@ -234,11 +234,20 @@ thislist = ["g","h","b","y","d","s"]
 #The return value is a new list, leaving the old list unchanged.
 newlist = [x for x in fruits if x != "apple"]
 
-newlist = [x for x in tv if x != "anime"]
+newlist = [x for x in fruits if x != "anime"]
 
 #The iterable can be any iterable object, like a list, tuple, set etc.
 newlist = [x for x in range(10)]
 
 newlist = [x for x in range(2134)]
 
-##
+#List objects have a sort() method that will sort the list alphanumerically, ascending, by default
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort()
+print(thislist)
+
+thislist = ["blood", "code", "punk", "metal", "king"]
+thislist.sort()
+print(thislist)
+
+
