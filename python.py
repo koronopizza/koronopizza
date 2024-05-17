@@ -266,5 +266,14 @@ print(thislist)
 
 #this will roll turn out like this: 88,66,55,22,11
 
+#The reverse() method reverses the current sorting order of the elements.
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.reverse()
+print(thislist)
+
+thislist = ["this", "is", "reverses", "list"]
+thislist.reverse()
+print(thislist)
+
 #
 
