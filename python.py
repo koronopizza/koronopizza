@@ -275,5 +275,14 @@ thislist = ["this", "is", "reverses", "list"]
 thislist.reverse()
 print(thislist)
 
+#Make a copy of a list with the copy() method
+thislist = ["apple", "banana", "cherry"]
+mylist = thislist.copy()
+print(mylist)
+
+thislist = ["love", "hate", "hope"]
+mylist = thislist.copy()
+print(mylist)
+
 #
 
