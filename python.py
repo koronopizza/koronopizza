@@ -293,3 +293,19 @@ thislist = ["change", "guess", "words"]
 mylist = list(thislist)
 print(mylist)
 
+# the + operator are one several ways to join, or concatenate, two or more lists in Python
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+
+list3 = list1 + list2
+print(list3)
+
+list1 = ["z", "y", "x"]
+list2 = [11, 22, 33]
+
+list3 = list1 + list2
+print(list3)
+
+#
+
+
