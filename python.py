@@ -306,6 +306,22 @@ list2 = [11, 22, 33]
 list3 = list1 + list2
 print(list3)
 
-#
+#Another way to join two lists is by appending all the items from 1 lists to another is the append function
+list1 = ["d", "e" , "f"]
+list2 = [4, 5, 6]
 
+for x in list2:
+  list1.append(x)
+
+print(list1)
+
+list1 = ["g", "h" , "i"]
+list2 = [11, 12, 10]
+
+for x in list2:
+  list1.append(x)
+
+print(list1)
+
+#
 
