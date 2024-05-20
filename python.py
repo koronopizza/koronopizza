@@ -323,5 +323,30 @@ for x in list2:
 
 print(list1)
 
-#
+#the extend() method, where the purpose is to add elements from one list to another list
+list1 = ["lol", "rwar" , "lmao"]
+list2 = [10, 20, 30]
 
+list1.extend(list2)
+print(list1)
+
+list1 = ["red", "blue" , "colors"]
+list2 = [901, 902, 903]
+
+list1.extend(list2)
+print(list1)
+
+#append()	Adds an element at the end of the list
+#clear()	Removes all the elements from the list
+#copy()	Returns a copy of the list
+#count()	Returns the number of elements with the specified value
+#extend()	Add the elements of a list (or any iterable), to the end of the current list
+#index()	Returns the index of the first element with the specified value
+#insert()	Adds an element at the specified position
+#pop()	Removes the element at the specified position
+#remove()	Removes the item with the specified value
+#reverse()	Reverses the order of the list
+#sort()	Sorts the list
+# this is just to help me remember most the methods of a list
+
+#
