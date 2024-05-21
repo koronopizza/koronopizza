@@ -349,4 +349,11 @@ print(list1)
 #sort()	Sorts the list
 # this is just to help me remember most the methods of a list
 
+#Tuples are written with round brackets
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)
+
+thistuple = ("star", "dust", "sun")
+print(thistuple)
+
 #
