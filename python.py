@@ -356,4 +356,8 @@ print(thistuple)
 thistuple = ("star", "dust", "sun")
 print(thistuple)
 
-##
+#
+thistuple = ("love", "nana", "charactor")
+print(len(thistuple))
+
+
