@@ -356,8 +356,24 @@ print(thistuple)
 thistuple = ("star", "dust", "sun")
 print(thistuple)
 
-#
+#To determine how many items a tuple has, use the len() function
 thistuple = ("love", "nana", "charactor")
 print(len(thistuple))
 
+#To determine how many items a tuple has, use the len() function
+thistuple = ("apple",)
+print(type(thistuple))
+
+#NOT a tuple
+thistuple = ("apple")
+print(type(thistuple))
+
+#From Python's perspective, tuples are defined as objects with the data type 'tuple'
+mytuple = ("apple", "banana", "cherry")
+print(type(mytuple))
+
+mytuple = ("a", "b", "cat")
+print(type(mytuple))
+
+#
 
