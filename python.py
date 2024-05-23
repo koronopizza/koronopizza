@@ -375,5 +375,21 @@ print(type(mytuple))
 mytuple = ("a", "b", "cat")
 print(type(mytuple))
 
+#this will Print the second item in the tuple
+thistuple = ("apple", "banana", "cherry")
+print(thistuple[1])
+
+#this will Print the first item in the tuple
+thistuple = ("apple", "banana", "cherry")
+print(thistuple[0])
+
+#Negative indexing means start from the end
+thistuple = ("apple", "banana", "cherry")
+print(thistuple[-1])
+
+#Negative indexing means start from the end on this as well
+thistuple = ("apple", "banana", "cherry")
+print(thistuple[-2])
+
 #
 
