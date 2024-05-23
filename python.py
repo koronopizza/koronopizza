@@ -391,5 +391,12 @@ print(thistuple[-1])
 thistuple = ("apple", "banana", "cherry")
 print(thistuple[-2])
 
+#You can specify a range of indexes by specifying where to start and where to end the range
+thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple[2:5])
+
+thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple[1:4])
+
 #
 
