@@ -410,5 +410,12 @@ thistuple = ("p", "a", "r")
 if "p" in thistuple:
   print("Yes, 'p' is in the fruits tuple")
   
-  
+#You can convert the tuple into a list, change the list, and convert the list back into a tuple
+x = ("a", "b", "c")
+y = list(x)
+y[1] = "k"
+x = tuple(y)
+
+print(x)
+
 
