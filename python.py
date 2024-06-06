@@ -418,4 +418,15 @@ x = tuple(y)
 
 print(x)
 
+#Tuples are unchangeable, so you cannot remove items from it, but you can use the same workaround as we used for changing and adding tuple items, Convert this tuple into a list, remove "apple", and convert it back into a tuple
+thistuple = ("tree", "leaf", "bark")
+y = list(thistuple)
+y.remove("tree")
+thistuple = tuple(y)
+
+thistuple = ("car", "bike", "motor")
+y = list(thistuple)
+y.remove("car")
+thistuple = tuple(y)
+
 #
